@@ -9,7 +9,8 @@ function getBooks(id) {
       return book;
     }
   }
-  return null;
+  const idNotFound = "This id does not exist"
+  return idNotFound;
 }
 
 function addBook(name, price) {

@@ -9,7 +9,8 @@ function getProduct(id) {
     if (product.productid == id) 
     return product;
   }
-  return null;
+  const idNotFound = "This id does not exist"
+  return idNotFound;
 }
 
 function addProduct(name, cost) {
